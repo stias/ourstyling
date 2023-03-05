@@ -16,6 +16,8 @@ class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        resizeToAvoidBottomInset: false,
+        extendBody: true,
         appBar: AppHeader(),
         bottomNavigationBar: NavigatorBar(),
         body: SingleChildScrollView(
@@ -156,11 +158,10 @@ class _MainState extends State<Main> {
                       Container(
                         height: 40,
                         decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(
-                            color: const Color(0xffd3d3d3 ),
-                          )
-                        ),
+                            borderRadius: BorderRadius.circular(20),
+                            border: Border.all(
+                              color: const Color(0xffd3d3d3),
+                            )),
                         child: Center(
                           child: Text(
                             "추천 상품 더보기 >",
@@ -175,8 +176,6 @@ class _MainState extends State<Main> {
                   ),
                 ),
               ],
-            )
-        )
-    );
+            )));
   }
 }
