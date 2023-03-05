@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../header/Header.dart';
+import 'components/BestItem.dart';
 import 'components/navigatorBar.dart';
 
 class Main extends StatefulWidget {
@@ -132,248 +133,22 @@ class _MainState extends State<Main> {
                         child: Column(
                           children: [
                             Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                SizedBox(
-                                  width: 121,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(right: 12),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Image.asset("assets/sample.jpg"),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 8)),
-                                        Text("브랜드",
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Colors.grey,
-                                            )),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 4)),
-                                        Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("29,800원",
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.bold,
-                                                )),
-                                            Text(
-                                              "32%",
-                                              style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.red),
-                                            ),
-                                          ],
-                                        )
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 121,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(right: 12),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                      children: [
-                                        Image.asset("assets/sample.jpg"),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 8)),
-                                        Text("브랜드",
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Colors.grey,
-                                            )),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 4)),
-                                        Row(
-                                          mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("29,800원",
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.bold,
-                                                )),
-                                            Text(
-                                              "32%",
-                                              style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.red),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 121,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(right: 12),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                      children: [
-                                        Image.asset("assets/sample.jpg"),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 8)),
-                                        Text("브랜드",
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Colors.grey,
-                                            )),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 4)),
-                                        Row(
-                                          mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("29,800원",
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.bold,
-                                                )),
-                                            Text(
-                                              "32%",
-                                              style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.red),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                )
+                                BestItem(),
+                                BestItem(),
+                                BestItem(),
                               ],
                             ),
                             Padding(padding: EdgeInsets.only(bottom: 12)),
                             Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                SizedBox(
-                                  width: 121,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(right: 12),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                      children: [
-                                        Image.asset("assets/sample.jpg"),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 8)),
-                                        Text("브랜드",
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Colors.grey,
-                                            )),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 4)),
-                                        Row(
-                                          mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("29,800원",
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.bold,
-                                                )),
-                                            Text(
-                                              "32%",
-                                              style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.red),
-                                            ),
-                                          ],
-                                        )
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 121,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(right: 12),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                      children: [
-                                        Image.asset("assets/sample.jpg"),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 8)),
-                                        Text("브랜드",
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Colors.grey,
-                                            )),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 4)),
-                                        Row(
-                                          mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("29,800원",
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.bold,
-                                                )),
-                                            Text(
-                                              "32%",
-                                              style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.red),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 121,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(right: 12),
-                                    child: Column(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                      children: [
-                                        Image.asset("assets/sample.jpg"),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 8)),
-                                        Text("브랜드",
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Colors.grey,
-                                            )),
-                                        Padding(
-                                            padding: EdgeInsets.only(top: 4)),
-                                        Row(
-                                          mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("29,800원",
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.bold,
-                                                )),
-                                            Text(
-                                              "32%",
-                                              style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.red),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                )
+                                BestItem(),
+                                BestItem(),
+                                BestItem(),
                               ],
-                            )
+                            ),
                           ],
                         ),
                       ),
